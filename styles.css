@@ -1,9 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 img {
-    height: 300px;
+    height: 270px;
 }
 .illustration {
-    height: 100px;
-    width: 100px;
+    height: 220px;
+    width: 220px;
     background-color: pink;
+    border-radius: 7px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkmagenta;
+}
+.header > div {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: beige;
+}
+.headerlogo {
+    color: beige;
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 37px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(218, 218, 191);
+    font-size: 20px;
+}
+li {
+    margin-right: 100px;
+    color: rgb(221, 221, 195);
+}
+.sign-up1 {
+    padding: 9px 12px;
+    border: 0;
+    background-color: rgb(255, 182, 245);
     border-radius: 3px;
+    margin-top: 8px;
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+}
+.left-part {
+    font-size: 20px;
+}
+.thecards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.cards p {
+    text-align: center;
+}
+.cards div {
+    margin: 0 auto;
+}
+.cards {
+    width: 220px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.quote {
+    background-color: lightgray;
+    padding: 40px 70px;
+    font-size: 22px;
+    font-style: italic;
+}
+.author {
+    text-align: end;
+}
+.blue-window {
+    background-color: rgb(229, 197, 255);
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.call-to-act {
+    font-weight: 900;
+}
+.sign-up2 {
+    background-color: rgb(229, 197, 255);
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 14px;
+    font-size: 17px;
+}
+.footer {
+    background-color: rgb(85, 1, 85);
+    color: beige;
+    padding: 20px;
+    text-align: center;
+}
+.blue-w-text {
+   margin-right: 250px;
+}
+.dabutton {
+    
 }
